@@ -1,0 +1,6 @@
+---
+- name: install repositories from ghq
+  ghq:
+    name: "{{ item }}"
+    update: yes
+  with_items: "{{ repositories }}"

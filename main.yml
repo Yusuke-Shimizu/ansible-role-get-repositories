@@ -1,0 +1,35 @@
+---
+- hosts: all
+  connection: local
+  roles:
+    # After you call this module, you can use this
+    - suzuki-shunsuke.ghq-module
+  vars:
+    repositories:
+      - CircleCI-Public/circleci-demo-ios
+      - Phidica/sublime-fish
+      - Yusuke-Shimizu/ansible-role-get-repositories
+      - Yusuke-Shimizu/ansible-role-set-fish
+      - Yusuke-Shimizu/ansible-role-setup-mac
+      - Yusuke-Shimizu/ansible_role_VirtualBox_Extension-Pack
+      - Yusuke-Shimizu/ansible_role_asdf_on_mac
+      - Yusuke-Shimizu/aws-cloud9-codecommit-test
+      - Yusuke-Shimizu/circleci-test
+      - Yusuke-Shimizu/install-py-rb-go-cookbook
+      - Yusuke-Shimizu/install-rb-py-go-on-asdf
+      - Yusuke-Shimizu/osx-circleci-chef
+      - Yusuke-Shimizu/prometheus-test
+      - Yusuke-Shimizu/travisci-test
+      - asdf-chef/asdf
+      - asdf-vm/asdf
+      - cimon-io/ansible-role-asdf
+      - dracula/iterm
+      - dracula/sublime
+      - geerlingguy/ansible-role-homebrew
+      - geerlingguy/ansible-role-mas
+      - geerlingguy/dotfiles
+      - geerlingguy/mac-dev-playbook
+      - sous-chefs/SublimeChef
+
+  tasks:
+    - include_tasks: tasks/main.yml
