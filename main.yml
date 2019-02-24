@@ -13,7 +13,7 @@
       - Yusuke-Shimizu/ansible-role-setup-mac
       - Yusuke-Shimizu/ansible_role_VirtualBox_Extension-Pack
       - Yusuke-Shimizu/ansible_role_asdf_on_mac
-      - Yusuke-Shimizu/aws-cloud9-codecommit-test
+      - Yusuke-Shimizu/aws-cloud9-codecommit
       - Yusuke-Shimizu/circleci-test
       - Yusuke-Shimizu/install-py-rb-go-cookbook
       - Yusuke-Shimizu/install-rb-py-go-on-asdf
