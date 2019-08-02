@@ -21,7 +21,7 @@ ghq_list = [
 	"github.com/Yusuke-Shimizu/ansible-role-setup-mac", 
 	"github.com/Yusuke-Shimizu/ansible_role_VirtualBox_Extension-Pack", 
 	"github.com/Yusuke-Shimizu/ansible_role_asdf_on_mac", 
-	"github.com/Yusuke-Shimizu/aws-cloud9-codecommit-test", 
+	"github.com/Yusuke-Shimizu/aws-cloud9-codecommit", 
 	"github.com/Yusuke-Shimizu/circleci-test", 
 	"github.com/Yusuke-Shimizu/install-py-rb-go-cookbook", 
 	"github.com/Yusuke-Shimizu/install-rb-py-go-on-asdf", 
@@ -37,7 +37,8 @@ ghq_list = [
 	"github.com/geerlingguy/ansible-role-mas", 
 	"github.com/geerlingguy/dotfiles", 
 	"github.com/geerlingguy/mac-dev-playbook", 
-	"github.com/sous-chefs/SublimeChef"
+	"github.com/sous-chefs/SublimeChef",
+	"github.com/horike37/lambda-unittest-sample"
 ]
 ghq_list.each{|repository_name|
 	full_repo_path = "#{ghq_root}/#{repository_name}"

@@ -30,6 +30,7 @@
       - geerlingguy/dotfiles
       - geerlingguy/mac-dev-playbook
       - sous-chefs/SublimeChef
+      - horike37/lambda-unittest-sample
 
   tasks:
     - include_tasks: tasks/main.yml
