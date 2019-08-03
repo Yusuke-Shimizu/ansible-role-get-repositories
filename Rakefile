@@ -25,12 +25,12 @@ namespace :ansible do
 
   desc "build check"
   task :check do
-    sh 'ansible-playbook main.yml -i inventory -vv --check'
+    sh 'ansible-playbook main.yml -vv --check'
   end
 
   desc "build"
   task :build do
-    sh 'ansible-playbook main.yml -i inventory -vv'
+    sh 'ansible-playbook main.yml -vv'
   end
 
   desc "install requirements from galaxy"

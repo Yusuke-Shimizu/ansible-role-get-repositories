@@ -13,6 +13,7 @@
       - Yusuke-Shimizu/ansible-role-setup-mac
       - Yusuke-Shimizu/ansible_role_VirtualBox_Extension-Pack
       - Yusuke-Shimizu/ansible_role_asdf_on_mac
+      - Yusuke-Shimizu/ansible-role-template
       - Yusuke-Shimizu/aws-cloud9-codecommit
       - Yusuke-Shimizu/circleci-test
       - Yusuke-Shimizu/install-py-rb-go-cookbook
@@ -20,6 +21,7 @@
       - Yusuke-Shimizu/osx-circleci-chef
       - Yusuke-Shimizu/prometheus-test
       - Yusuke-Shimizu/travisci-test
+      - Yusuke-Shimizu/mac-dev-playbook
       - asdf-chef/asdf
       - asdf-vm/asdf
       - cimon-io/ansible-role-asdf
@@ -31,6 +33,7 @@
       - geerlingguy/mac-dev-playbook
       - sous-chefs/SublimeChef
       - horike37/lambda-unittest-sample
+      - kenzo0107/vagrant-docker
 
   tasks:
     - include_tasks: tasks/main.yml

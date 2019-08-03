@@ -21,6 +21,7 @@ ghq_list = [
 	"github.com/Yusuke-Shimizu/ansible-role-setup-mac", 
 	"github.com/Yusuke-Shimizu/ansible_role_VirtualBox_Extension-Pack", 
 	"github.com/Yusuke-Shimizu/ansible_role_asdf_on_mac", 
+	"github.com/Yusuke-Shimizu/ansible-role-template",
 	"github.com/Yusuke-Shimizu/aws-cloud9-codecommit", 
 	"github.com/Yusuke-Shimizu/circleci-test", 
 	"github.com/Yusuke-Shimizu/install-py-rb-go-cookbook", 
@@ -28,6 +29,7 @@ ghq_list = [
 	"github.com/Yusuke-Shimizu/osx-circleci-chef", 
 	"github.com/Yusuke-Shimizu/prometheus-test", 
 	"github.com/Yusuke-Shimizu/travisci-test", 
+	"github.com/Yusuke-Shimizu/mac-dev-playbook",
 	"github.com/asdf-chef/asdf", 
 	"github.com/asdf-vm/asdf", 
 	"github.com/cimon-io/ansible-role-asdf", 
@@ -38,7 +40,9 @@ ghq_list = [
 	"github.com/geerlingguy/dotfiles", 
 	"github.com/geerlingguy/mac-dev-playbook", 
 	"github.com/sous-chefs/SublimeChef",
-	"github.com/horike37/lambda-unittest-sample"
+	"github.com/horike37/lambda-unittest-sample",
+	"github.com/sous-chefs/SublimeChef", 
+	"github.com/kenzo0107/vagrant-docker"
 ]
 ghq_list.each{|repository_name|
 	full_repo_path = "#{ghq_root}/#{repository_name}"
